@@ -1,9 +1,9 @@
-def hello_word(city):
-    print(f'Hello World from {city}')
+def hello_word(state):
+    print(f'Hello World from {state}')
 
 
 def main():
-    print("Hello World!")
+    hello_word('New York')
 
 
 main()
